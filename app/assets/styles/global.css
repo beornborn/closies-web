@@ -1,0 +1,29 @@
+:global {
+  body, html, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 13px;
+    font-family: arial;
+    color: #212121;
+  }
+
+  *:focus {
+    outline: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a[disabled] {
+    pointer-events: none;
+  }
+
+  .clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
