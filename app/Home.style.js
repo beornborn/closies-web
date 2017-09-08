@@ -6,8 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
-  overflow: hidden;
+  margin: 20px;
 `
 export const Logo = styled.img`
   width: 400px;
@@ -20,7 +19,6 @@ export const Logo = styled.img`
 export const Description = styled.div`
   font-size: 25px;
   font-style: italic;
-  margin: 0 20px;
   text-align: center;
   @media (max-width: 500px) {
     font-size: 20px;
